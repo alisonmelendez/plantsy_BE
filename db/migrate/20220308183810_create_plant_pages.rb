@@ -1,6 +1,6 @@
 class CreatePlantPages < ActiveRecord::Migration[6.1]
   def change
-    create_table :plantpages do |t|
+    create_table :plant_pages do |t|
       t.string :name
       t.string :botanical_name
       t.string :src

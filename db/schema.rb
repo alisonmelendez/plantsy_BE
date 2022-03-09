@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2022_03_08_190243) do
     t.integer "plantpage_id"
   end
 
-  create_table "plantpages", force: :cascade do |t|
+  create_table "plant_pages", force: :cascade do |t|
     t.string "name"
     t.string "botanical_name"
     t.string "src"
