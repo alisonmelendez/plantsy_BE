@@ -7,6 +7,11 @@ class ApplicationController < Sinatra::Base
     plants.to_json
   end
 
+  get "/plants/:name" do
+    plants = Plant.find_by(name: params[:name])
+    plants.to_json
+  end
+
   delete "/plants/:id" do
     plant = Plant.find(params[:id])
     plant.destroy
