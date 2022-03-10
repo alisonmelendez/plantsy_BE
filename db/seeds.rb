@@ -352,7 +352,7 @@ Plant.create(
 
 Plant.create(
     name: "Dusty Miller",
-    src: "Dusty_Miller.png",
+    src: "DustyMiller.png",
     plantpage_id: p3.id
 )
 
@@ -415,7 +415,7 @@ Plant.create(
 
 Plant.create(
     name: "Sweet Alyssum",
-    src: "Sweet_Alyssum.png",
+    src: "SweetAlyssum.png",
     plantpage_id: p12.id 
 )
 
