@@ -352,7 +352,7 @@ Plant.create(
 
 Plant.create(
     name: "Dusty Miller",
-    src: "Dusty Miller.png",
+    src: "Dusty_Miller.png",
     plantpage_id: p3.id
 )
 
