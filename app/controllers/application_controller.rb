@@ -18,4 +18,24 @@ class ApplicationController < Sinatra::Base
     plant.to_json
   end
 
+  get "/plantpages" do
+    plants = PlantPage.all.order(:created_at)
+    plants.to_json
+  end
+  
+  get "/facts" do
+    plants = Fact.all.order(:created_at)
+    plants.to_json
+  end
+
+  get "/plantpages/:name" do
+    plantpages = PlantPage.find_by(name: params[:name])
+    plantpages.to_json
+  end
+
+  get "/facts/:plantpage_id" do
+    facts = Fact.find_by(plantpage_id: params[:plantpage_id])
+    facts.to_json
+  end
+
 end
