@@ -13,6 +13,7 @@
 ActiveRecord::Schema.define(version: 2022_03_08_190243) do
 
   create_table "facts", force: :cascade do |t|
+    t.string "name"
     t.string "fact"
     t.integer "plantpage_id"
   end

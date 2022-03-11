@@ -159,174 +159,210 @@ p12 = PlantPage.create(
 #Facts
 
 Fact.create(
+    name: 'Begonia',
     fact: "Tuberous and semperflorens begonias are edible. They have citrus-like taste. Large quantities of begonia can induce poisoning due to high content of oxalic acid in the plant tissues.",
     plantpage_id: p1.id
 )
 
 Fact.create(
+    name: 'Begonia',
     fact: "Besides in decorative purposes, begonias were used for polishing of swords in the past.",
     plantpage_id: p1.id 
 )
 
 Fact.create(
+    name: 'Begonia',
     fact: "Just like many other types of flowers, begonia sends specific message when it is offered as a gift. Begonia means \"be cautious\" in the \"floral dictionary\".",
     plantpage_id:p1.id 
 )
 
 Fact.create(
+    name: "Petunia",
     fact: "Insects and some species of hummingbirds are specialized for the pollination of petunias.",
     plantpage_id: p2.id 
 )
 Fact.create(
+    name: "Petunia",
     fact: "Most types of petunias are propagated via seed.",
     plantpage_id: p2.id 
 )
 
 Fact.create(
+    name: "Petunia",
     fact:"All types of petunia can be divided in 4 major groups: grandiflora, hedgiflora, multiflora and milliflora.",
     plantpage_id: p2.id 
 )
 
 Fact.create(
+    name: "Dusty Miller",
     fact: "Dusty Miller is drought-resistant and can take the heat, making it an ideal plant for summer and fall.",
     plantpage_id: p3.id 
 )
 
 Fact.create(
+    name: "Dusty Miller",
     fact: "It can be used effectively both in outdoor container gardening and as border plants in the garden bed.",
     plantpage_id: p3.id 
 )
 Fact.create(
+    name: "Dusty Miller",
     fact:"Dusty Miller also repels deer, so planting it around not so deer-resistant plants is a great way to keep them safe from hungry deer.",
     plantpage_id: p3.id 
 )
 
 Fact.create(
+    name: "Primrose",
     fact: "Tincture (alcoholic solution) of the primrose is used in treatment of insomnia, restlessness, headache and cough today.",
     plantpage_id: p4.id 
 )
 
 Fact.create(
+    name: "Primrose",
     fact: "Primrose was used for the preparation of magic potions during the Middle Ages.",
     plantpage_id: p4.id 
 )
 
 Fact.create(
+    name: "Primrose",
     fact:"19th April is celebrated as the \"Primrose day\" in the United Kingdom.",
     plantpage_id: p4.id 
 )
 
 Fact.create(
+    name: "Snowdrop",
     fact: "Scientific name for the snowdrop is Galanthus nivalis. Name is coined from the Greek words \"gala\", which means milk, and \"anthos\" which means flower. Second part of the name, \"nivalis\", originates from Latin language and it means snow.",
     plantpage_id: p5.id
 )
 
 Fact.create(
+    name: "Snowdrop",
     fact:"Group of passionate collectors of snowdrops are also known as galanthophiles.",
     plantpage_id:p5.id
 )
 
 Fact.create(
+    name: "Snowdrop",
     fact:"Galanthamine is a substance isolated from snowdrops that can be used to improve sleep.",
     plantpage_id:p5.id
 )
 
 Fact.create(
+    name: "Camellia",
     fact:"Fruit of camellia is dry capsule divided in up to 5 segments. Each segment is filled with 1 to 8 seed.",
     plantpage_id: p6.id
 )
 Fact.create(
+    name: "Camellia",
     fact:"Camellia propagates via cuttings and seed.",
     plantpage_id: p6.id
 )
 
 Fact.create(
+    name: "Camellia",
     fact:"Leaves of camellia are used for the manufacture of tea. White, green and black tea are just some of the types of tea made of this plant.",
     plantpage_id: p6.id
 )
 
 Fact.create(
+    name: "Marigold",
     fact:"Marigold has edible flowers. They are often used as an ingredient of salads and for decoration of sweet desserts.",
     plantpage_id: p7.id
 )
 
 Fact.create(
+    name: "Marigold",
     fact:"Marigold is susceptible to fungal disorders which usually manifest on a root and stem. Also, marigold is often on a target of spiders and grasshoppers.",
     plantpage_id: p7.id
 )
 Fact.create(
+    name: "Marigold",
     fact:"Medical studies showed that marigold contains substances with anti-viral, anti-bacterial, anti-fungal and anti-inflammatory properties.",
     plantpage_id: p7.id
 )
 
 Fact.create(
+    name: "Cactus",
     fact:"Water from cactus has higher density compared with tap water, but it is safe for drinking.",
     plantpage_id: p8.id
 )
 
 Fact.create(
+    name: "Cactus",
     fact:"Roots of cacti are located few inches underground, but they can reach 7 feet in diameter because water easily passes through the sand.",
     plantpage_id: p8.id
 )
 
 Fact.create(
+    name: "Cactus",
     fact:"Cacti have dormant periods and periods of intense growth and blossoming. Periods of growth require enough water and sunlight and they usually last shorter than periods of rest.",
     plantpage_id: p8.id
 )
 Fact.create(
+    name: "Geranium",
     fact:"Fruit of geranium is elongated capsule with a beak-like tip. Capsule is filled with 5 seed. It resembles the crane's bill, hence the nickname \"cranesbill\". Ripe fruit splits explosively and ejects seed away from the mother plant.",
     plantpage_id: p9.id
 )
 
 Fact.create(
+    name: "Geranium",
     fact:"Rose-scented geraniums can be also used as flavoring agent for jellies and cakes.",
     plantpage_id: p9.id
 )
 
 Fact.create(
+    name: "Geranium",
     fact:"Flowers of geranium are good source of essential oils that can be used for the removal of scars from the surface of the skin.",
     plantpage_id: p9.id
 )
 
 Fact.create(
+    name: "Pansy",
     fact:"The name pansy comes from the French word, pensee, which means thought or remembrance",
     plantpage_id: p10.id
 )
 Fact.create(
+    name: "Pansy",
     fact:"In the language of flowers, the pansy represents thoughts of lovers",
     plantpage_id: p10.id
 )
 
 Fact.create(
+    name: "Pansy",
     fact:"Pansies are one of the oldest cultivated flowers in history",
     plantpage_id: p10.id
 )
 
 Fact.create(
+    name: "Azalea",
     fact:"Azalea flowers come in white, pink, mauve, purple, red, orange and yellow in colour, and the single varieties generally have 5 petals, but doubles can have up to 30.",
     plantpage_id: p11.id
 )
 
 Fact.create(
+    name: "Azalea",
     fact:"Azaleas are popular garden plants, although many people do not know how to grow them properly, as they require specific growing conditions, which include the need for acidic soil.",
     plantpage_id: p11.id
 )
 Fact.create(
+    name: "Azalea",
     fact:"Over 10,000 different cultivars of azaleas have been recorded and the plant and flowers are very similar to rhododendrons in appearance, so it is often difficult to tell them apart.",
     plantpage_id: p11.id
 )
 
 Fact.create(
+    name: "Sweet Alyssum",
     fact:"In its natural environment, alyssum is commonly found growing on beaches or sand dunes.",
     plantpage_id: p12.id
 )
 
 Fact.create(
+    name: "Sweet Alyssum",
     fact:"Alyssum is an annual flowering, small, bushy plant that grows to about 5 - 30 cm (2-12 inches) in height.",
     plantpage_id: p12.id
 )
 
 Fact.create(
+    name: "Sweet Alyssum",
     fact:"Alyssum's scientific name is Lobularia maritima or Alyssum maritimum, which comes from the Greek words meaning \"small pod\" and \"marine\".",
     plantpage_id: p12.id
 )

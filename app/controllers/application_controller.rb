@@ -33,8 +33,8 @@ class ApplicationController < Sinatra::Base
     plantpages.to_json
   end
 
-  get "/facts/:plantpage_id" do
-    facts = Fact.find_by(plantpage_id: params[:plantpage_id])
+  get "/facts/:name" do
+    facts = Fact.where(name: params[:name])
     facts.to_json
   end
 
